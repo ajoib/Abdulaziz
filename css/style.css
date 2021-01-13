@@ -1,240 +1,110 @@
-.ml-auto {
-    margin-left: auto;
+.navbar{
+    background: rgb(0,255,248);
+background: linear-gradient(90deg, rgba(0,255,248,1) 0%, rgba(0,68,252,0.8939950980392157) 100%);
 }
 
-.header__nav-link {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 28px;
-    color: #252B42;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 94px;
-    transition: 0.5s;
-}
-
-.header__nav-link:hover {
-    color: #FA4A0C;
-}
-
-
-
-.header__text {
-    background: url(../img/header-fon.jpg) no-repeat center center / cover;
-    padding: 73px 0 146px;
-}
-
-.header__text-h3 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    color: #F7F7F7;
-}
-
-.header__text-title {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 58px;
-    line-height: 80px;
-    color: #FFFFFF;
-}
-
-.header__text-h4 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 38px;
-    color: #F7F7F7;
-    margin-bottom: 58px;
-    margin-top: 17px;
-}
-
-.header__text-button {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FFFFFF;
-    padding: 16px 58px;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: 0.5s;
-    margin: 0 17px;
-
-}
-
-.header__text-button:hover {
-    background: #FA4A0C;
-    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
-    border: 1px solid #FA4A0C;
-    color: #F7F7F7;
-}
-
-/**************************Section Start*********************************/
-
-.section {
-    /*  position: relative; */
-    width: 100%;
-
-}
-
-.section__img {
-    margin: auto;
-    justify-content: center;
-    /* position: relative; */
-}
-
-.section__img-phone {
-    width: 25%;
-    margin: auto;
-    justify-content: center;
-}
-
-.section__title-text {
+.navbar-brand{
+    font-size: 25px;
     color: black;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 44px;
-    line-height: 36px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 0, 0)!important;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+
+.bar:hover{
+    color: rgb(255, 106, 0)!important;
+}
+
+h1{
+    font-size: 24px;
+    margin-top: 15px;
     text-align: center;
-    justify-content: center;
-}
-
-.phone__p {
-    margin-top: 292px;
-    color: #FA4A0C;
-    font-family: 'Montserrat';
-    font-style: normal;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 36px
+    text-transform: uppercase;
 }
 
-h2 {
-    color: #252B42;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 57px;
-}
-
-.phone__p2 {
-    color: #737373;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 38px;
-}
-
-
-.mf {
-    margin-left: 80px;
-}
-
-
-.block-box {
-    width: 100%;
-    height: 509px;
-    background: url(../img/footer-fon.png);
-}
-
-h3 {
-    padding-top: 138px;
+p{
+    font-size: 18px;
+    margin-top: 10px;
     text-align: center;
-    color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: normal;
+    padding: 10px 10px;
+    color: color;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 57px;
+    text-transform: uppercase;
 }
 
-.footer__text {
-    font-size: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-bottom: 25px;
-}
 
-.footer__text-button{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FFFFFF;
-    padding: 16px 58px;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 30px;
+
+.xudoyshukur{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
     text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding: 10px 25px 10px 25px;
+    border: rgb(255, 106, 0) solid 1px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-left: 190px;
+}
+
+.xudoyshukur:hover{
+    text-decoration: none;
+    list-style: none;
+    color: darkblue;
+    background: rgb(0, 110, 255);
+}
+
+.none{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background: rgb(0, 172, 29);
+}
+
+h2{
+    padding-top: 45px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
     transition: 0.5s;
-    margin: 0 17px;
 }
 
-.footer__text-button:hover{
-    background: #FA4A0C;
-    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
-    border: 1px solid #FA4A0C;
-    color: #F7F7F7;
-}
-/*****************************************************************************************************/
-
-
-
-/******************************footer start***************** */
-
-footer {
-  
+h2:hover{
+    opacity: 0;
 }
 
-@media (max-width: 1048px) {
-    .header__text-title {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 32px;
-        color: #FFFFFF;
-    }
-
-    .header__text-button {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 36px;
-        color: #FFFFFF;
-        padding: 12px 27px;
-        border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 13px;
-        text-decoration: none;
-        transition: 0.5s;
-        margin: 0 17px;
-    }
+.header_text:hover{
+    opacity: 0;
 }
 
+.header_text{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 0 140px 0 140px;
+    transition: 0.5s;
+}
 
-@media (max-width: 356px) {
+.img_end{
+    padding: 10px 10px 10px 10px!important;
+}
 
-    .header__text-title {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 20px;
-        color: #FFFFFF;
-    }
+.row{
+    padding: -1px -1px -1px -1px;
 }
