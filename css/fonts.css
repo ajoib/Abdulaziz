@@ -1,14 +1,14 @@
 @font-face{
-     font-family: 'Montserrat-Bold';
-    src: url(../fonts/Montserrat-Bold.ttf);
+    font-family: 'Inconsolata-Bold';
+    src: url(../fonts/Inconsolata-Bold.ttf);
 }
 
 @font-face{
-      font-family: 'Montserrat-Regular';
-    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: 'Inconsolata-Medium';
+    src: url(../fonts/Inconsolata-Medium.ttf);
 }
 
 @font-face{
-     font-family: 'Product-Sans-Regular';
-    src: url(../fonts/Product-Sans-Regular.ttf);
+    font-family: 'Inconsolata-Regular';
+    src: url(../fonts/Inconsolata-Regular.ttf);
 }
