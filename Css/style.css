@@ -1,0 +1,344 @@
+.header{
+    width: 100%;
+    background: url(../Img/bagraund.jpg) no-repeat center center / cover;
+    padding-bottom: 48px;
+}
+
+.nav-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+   color: black!important; 
+   border: white 1px solid;
+   padding: 13px 10px 13px 10px;
+   border-radius: 15px;
+}
+
+.nav_brand-img{
+    width: 134px;
+    height: 43px;
+}
+
+.nav-light{
+    background: #463e3e81;
+}
+
+.header_start-img{
+    padding-left: 100px;
+    margin-top: 100px;
+    max-width: 360px;
+    height: 100px;
+}
+
+.header_start-title{
+    padding-left: 100px;
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.header_center-title{
+    align-items: center;
+    font-size: 1.4em;
+    color: white;
+    padding-top: 100px;
+}
+
+.header_text-p{
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 25px;
+}
+
+.header_center-vidio{
+    width: 100%;
+    padding-left: 40px;
+}
+
+.header_center-vidio-text{
+    padding-top: 100px;
+}
+
+.vidio_h2-text{
+    padding-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 2.5em;
+}
+
+.vidio_p-title{
+    padding-top: 25px;
+    font-size: 1.5em;
+    color: white;
+    padding-left: 80px;
+    padding-right: 38px;
+}
+
+.text_h3{
+    color: white;
+    padding-top: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title_p{
+    font-size: 32px;
+    color: white;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title_link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.title_link:hover{
+    text-decoration: none;
+    color: rgb(242, 255, 0)!important; 
+    border: white 1px solid;
+    padding: 13px 10px 13px 10px;
+    border-radius: 15px;
+}
+
+
+
+/***************FOOTER***************/
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #0000fb;
+}
+
+.footer_title{
+    color: white;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.footer_text{
+    padding-top: 40px;
+}
+
+
+/**************Media Start****************/
+@media(max-width: 1140px){
+    .fa-chevron-left {
+        font-size: 31px;
+        color: white;
+        margin-left: 26px;
+        margin-top: 22px;
+    }
+    .banner_imgs {
+        width: 100%;
+        height: 390px;
+        background: url(../Img/tor_movie.png) no-repeat center / cover;
+    }
+    .fa-play-circle {
+        font-size: 40px;
+        color: white;
+        margin-left: 11px;
+    }
+    .fa-film {
+        font-size: 38px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        margin-right: 10px;
+    }
+    .fa-arrow-alt-circle-down {
+        font-size: 38px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+    .text_movie {
+        color: white;
+        margin-left: 20px;
+        font-size: 37px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    .title {
+        color: white;
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .title_1 {
+        color: white;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .movie_coment {
+        color: white;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .movie_title {
+        font-size: 32px;
+        color: white;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 593px){
+    .header_start-img {
+        padding-left: 43px;
+        margin-top: 91px;
+        max-width: 323px;
+        height: 80px;
+    }
+    
+    .header_start-title {
+        padding-left: 47px;
+        margin-top: 26px;
+        color: white;
+        font-size: 19px;
+    }
+    
+    .header_center-title {
+        align-items: center;
+        font-size: 19px;
+        color: white;
+        padding-top: 28px;
+    }
+    
+    .header_text-p {
+        align-items: center;
+        font-size: 20px;
+        color: white;
+        padding-top: 15px;
+    }
+    
+    .header_center-vidio {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .vidio_h2-text {
+        padding-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .vidio_p-title {
+        padding-top: 14px;
+        font-size: 1.5em;
+        color: white;
+        padding-left: 120px;
+        padding-right: 30px;
+    }
+    
+    .text_h3 {
+        color: white;
+        padding-top: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .title_p {
+        font-size: 30px;
+        color: white;
+        padding: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .title_link {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 21px;
+        color: #ff0000;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+}
+
+
+
+@media(max-width: 350px){
+    .header_start-img {
+        padding-left: 10px;
+        margin-top: 16px;
+        max-width: 253px;
+        height: 56px;
+    }
+    .header_start-title {
+        padding-left: 10px;
+        margin-top: 15px;
+        color: white;
+        font-size: 15px;
+    }
+    .header_center-title {
+        align-items: center;
+        font-size: 16px;
+        color: white;
+        padding-top: 0px;
+    }
+    .header_text-p {
+        align-items: center;
+        font-size: 17px;
+        color: white;
+        padding-top: 3px;
+    }
+    .vidio_h2-text {
+        padding-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 35px;
+    }
+    .vidio_p-title {
+        padding-top: 14px;
+        font-size: 16px;
+        color: white;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .text_h3 {
+        color: white;
+        padding-top: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 27px;
+    }
+    .title_p {
+        font-size: 15px;
+        color: white;
+        padding: 19px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title_link {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+        color: #ff0000;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+    .footer_title {
+        color: white;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    .header_center-vidio-text {
+        padding-top: 1px;
+    }
+}
+
+
+

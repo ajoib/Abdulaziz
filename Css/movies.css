@@ -1,0 +1,436 @@
+.banner_imgs {
+    width: 100%;
+    height: 364px;
+    background: url(../Img/tor_movie.png) no-repeat center / cover;
+}
+
+.back_div {
+    width: 100%;
+    height: 313px;
+}
+
+.fa-chevron-left {
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fa-play-circle {
+    font-size: 32px;
+    color: white;
+    margin-left: 11px;
+
+}
+
+.all_icon {
+    padding-right: 10px;
+}
+
+.icons_movie {
+    flex-wrap: wrap;
+}
+
+.fa-film {
+    font-size: 29px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.fa-film:hover {
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+}
+
+.fa-arrow-alt-circle-down {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.fa-arrow-alt-circle-down:hover {
+    font-size: 28px;
+    color: rgb(255, 0, 0);
+}
+
+.fa-telegram-plane {
+    font-size: 18px;
+    color: white;
+}
+
+.movie_text {
+    width: 100%;
+    height: 200px;
+    background: rgb(115, 0, 255);
+    background: linear-gradient(173deg, rgba(115, 0, 255, 1) 0%, rgba(0, 18, 255, 1) 100%);
+}
+
+.text_movie {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+    color: white;
+    font-size: 11px;
+    margin-left: 25px;
+}
+
+.title_1 {
+    color: white;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.movie_coment {
+    color: white;
+    font-size: 11px;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+.more_movie {
+    width: 100%;
+    height: 45px;
+    background: black;
+}
+
+.movie_title {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.img_more {
+    width: 100%;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer_start{
+    width: 100%;
+    background: black;
+}
+
+.footer_link{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer_link-3{
+    padding-left: 53px;
+}
+
+.links{
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.icons_mes{
+    width: 100%;
+}
+
+/*-------footer_link--------*/
+
+.footer_link{
+    display: flex;
+}
+
+.fa-instagram {
+    font-size:34px;
+    color: rgb(255, 255, 255);
+    margin-right: 115px;
+}
+.fa-telegram-plane{
+    font-size:34px;
+    color: rgb(255, 255, 255);
+}
+.fa-google-play{
+    font-size:34px;
+    color: rgb(255, 255, 255);
+    margin-left: 115px;
+}
+
+/*************************media**************************/
+
+
+@media(max-width: 1250px){
+    .banner_imgs {
+        width: 100%;
+        height: 370px;
+        background: url(../Img/tor_movie.png) no-repeat center / cover;
+    }
+    .fa-chevron-left {
+        font-size: 38px;
+        color: white;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .fa-play-circle {
+        font-size: 42px;
+        color: white;
+        margin-left: 16px;
+        margin-bottom: 50px;
+    }
+    .fa-film {
+        font-size: 38px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        margin-right: 10px;
+    }
+    .fa-arrow-alt-circle-down {
+        font-size: 38px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+    .back_div {
+        width: 100%;
+        height: 313px;
+    }
+    .movie_text {
+        width: 100%;
+        height: 244px;
+        background: rgb(115, 0, 255);
+        background: linear-gradient(
+    173deg
+    , rgba(115, 0, 255, 1) 0%, rgba(0, 18, 255, 1) 100%);
+    }
+    .text_movie {
+        color: white;
+        margin-left: 10px;
+        font-size: 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .title {
+        color: white;
+        font-size: 18px;
+        margin-left: 35px;
+    }
+    .title_1 {
+        color: white;
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .movie_coment {
+        color: white;
+        font-size: 25px;
+        padding: 5px 20px 0px 20px;
+    }
+    .links {
+        padding-top: 45px;
+        padding-bottom: 10px;
+        justify-content: center;
+    }
+}
+@media(max-width: 1140px) {
+    .fa-chevron-left {
+        font-size: 31px;
+        color: white;
+        margin-left: 26px;
+        margin-top: 22px;
+    }
+
+    .banner_imgs {
+        width: 100%;
+        height: 390px;
+        background: url(../Img/tor_movie.png) no-repeat center / cover;
+    }
+
+    .fa-play-circle {
+        font-size: 40px;
+        color: white;
+        margin-left: 11px;
+    }
+
+    .fa-film {
+        font-size: 38px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        margin-right: 10px;
+    }
+
+    .fa-arrow-alt-circle-down {
+        font-size: 38px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+
+    .text_movie {
+        color: white;
+        margin-left: 20px;
+        font-size: 37px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+    }
+
+    .title {
+        color: white;
+        font-size: 15px;
+        margin-left: 35px;
+    }
+
+    .title_1 {
+        color: white;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .movie_coment {
+        color: white;
+        font-size: 21px;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+    .movie_text {
+        width: 100%;
+        height: 200px;
+        background: rgb(115, 0, 255);
+        background: linear-gradient(
+    173deg
+    , rgba(115, 0, 255, 1) 0%, rgba(0, 18, 255, 1) 100%);
+    }
+
+    .movie_title {
+        font-size: 32px;
+        color: white;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    .footer_link {
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .links {
+        padding-top: 43px;
+        padding-bottom: 16px;
+        justify-content: center;
+    }
+}
+@media(max-width: 350px) {
+    .banner_imgs {
+        width: 100%;
+        height: 298px;
+        background: url(../Img/tor_movie.png) no-repeat center / cover;
+    }
+
+    .fa-chevron-left {
+        font-size: 17px;
+        color: white;
+        margin-left: 14px;
+        margin-top: 14px;
+    }
+
+    .fa-play-circle {
+        font-size: 30px;
+        color: white;
+        margin-left: 24px;
+    }
+
+    .fa-film {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+        margin-right: -26px;
+    }
+
+    .fa-arrow-alt-circle-down {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;
+    }
+
+    .all_icon {
+        padding-right: 35px;
+    }
+
+    .text_movie {
+        color: white;
+        /* margin-left: 19px; */
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .title {
+        color: white;
+        font-size: 12px;
+        margin-left: 92px;
+        padding-bottom: 20px;
+    }
+
+    .title_1 {
+        color: white;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .movie_coment {
+        color: white;
+        font-size: 13px;
+        margin-left: 20px;
+        text-align: center;
+        padding: 0px 14px 0px 14px;
+    }
+
+    .movie_text {
+        width: 100%;
+        height: 251px;
+        background: rgb(115, 0, 255);
+        background: linear-gradient(173deg, rgba(115, 0, 255, 1) 0%, rgba(0, 18, 255, 1) 100%);
+    }
+    .back_div {
+        width: 100%;
+        height: 245px;
+    }
+    .links {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+    .footer_link {
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+    
+    .fa-instagram {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-right: 40px;
+    }
+    .fa-google-play {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 40px;
+    }
+    .footer_link {
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 0px 10px;
+        padding-bottom: 25px;
+    }
+}
+/**********************************************************/
