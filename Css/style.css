@@ -1,344 +1,162 @@
-.header{
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/******** MURAKAB KODLAR *********/
+
+.nav_menu-1{
     width: 100%;
-    background: url(../Img/bagraund.jpg) no-repeat center center / cover;
-    padding-bottom: 48px;
+    height: 55px;
+    background: #202020;
+}
+.nav_menu-1-img{
+    height: 50px;
+}
+
+.menu_dark {
+    background-color: #202020 !important;
+    justify-content: center !important;
 }
 
 .nav-link{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: bold;
+    color: #fff;
+    font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
     transition: 0.5s;
 }
 
 .nav-link:hover{
-   color: black!important; 
-   border: white 1px solid;
-   padding: 13px 10px 13px 10px;
-   border-radius: 15px;
+    color: red !important;
+    text-align: center !important;
 }
 
-.nav_brand-img{
-    width: 134px;
-    height: 43px;
-}
-
-.nav-light{
-    background: #463e3e81;
-}
-
-.header_start-img{
-    padding-left: 100px;
-    margin-top: 100px;
-    max-width: 360px;
-    height: 100px;
-}
-
-.header_start-title{
-    padding-left: 100px;
-    margin-top: 30px;
-    color: white;
-    font-size: 24px;
-}
-
-.header_center-title{
-    align-items: center;
-    font-size: 1.4em;
-    color: white;
-    padding-top: 100px;
-}
-
-.header_text-p{
-    align-items: center;
-    font-size: 24px;
-    color: white;
-    padding-top: 25px;
-}
-
-.header_center-vidio{
+.jonli_efir-joi{
     width: 100%;
-    padding-left: 40px;
+    height: 40px;
+    background: #151515;
 }
 
-.header_center-vidio-text{
-    padding-top: 100px;
-}
-
-.vidio_h2-text{
-    padding-top: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.jonli_title{
+    padding-top: 7px;
+    text-align: center;
+    align-items: center;
     color: white;
-    font-size: 2.5em;
-}
-
-.vidio_p-title{
-    padding-top: 25px;
-    font-size: 1.5em;
-    color: white;
-    padding-left: 80px;
-    padding-right: 38px;
-}
-
-.text_h3{
-    color: white;
-    padding-top: 48px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.title_p{
-    font-size: 32px;
-    color: white;
-    padding: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.title_link{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: bold;
     text-transform: uppercase;
-    transition: 0.5s;
-    text-decoration: none;
+    font-weight: 700;
 }
 
-.title_link:hover{
-    text-decoration: none;
-    color: rgb(242, 255, 0)!important; 
-    border: white 1px solid;
-    padding: 13px 10px 13px 10px;
-    border-radius: 15px;
+.jonli_text{
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
 }
 
-
-
-/***************FOOTER***************/
-
-.footer{
+.carusel_navs{
     width: 100%;
-    height: 100%;
-    background: #0000fb;
 }
 
-.footer_title{
+.d-block {
+    width: 100%;
+    height: 600px;
+    clip-path : polygon(0 0, 100%, 100%, 95%, 100%) !important;
+    -webkit-clip-path: polygon(0 0,0 100%,100% 97%,100% 0);
+    
+}
+.navbar-2{
+    display: none;
+}
+
+
+.d-md-block {
+    margin-right: 488px;
+    margin-bottom: 185px;
+}
+.h5{
+    font-size: 40px !important;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.h5_title{
+    font-size: 12px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wanda_VISION {
+    width: 233px;
+    height: 253px;
+}
+.husd{
+    margin-right: 20px;
+}
+
+.wanda_link{
     color: white;
     font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
+    background: red;
+    padding: 10px 26px 10px 26px ;
+    border-radius: 12px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.wanda_link:hover{
+   text-decoration: none;
+   color: white;
+   background: rgb(116, 29, 29);
+}
+.asenble{
+    padding-top: 10px !important;
+}
+.h56{
+    font-size: 40px !important;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.h5_title-{
+    font-size: 12px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: blue;
 }
 
+/************************************media start**************************************/
 
-
-.footer_text{
-    padding-top: 40px;
-}
-
-
-/**************Media Start****************/
-@media(max-width: 1140px){
-    .fa-chevron-left {
-        font-size: 31px;
-        color: white;
-        margin-left: 26px;
-        margin-top: 22px;
+@media(max-width: 350px) {
+    .nav_menu-1-img {
+        height: 37px;
+        padding-top: 7px;
     }
-    .banner_imgs {
+    .navbar-toggler {
+        padding: 0.1rem 0.7rem;
+        font-size: 1.00rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+    .jonli_efir-joi {
         width: 100%;
-        height: 390px;
-        background: url(../Img/tor_movie.png) no-repeat center / cover;
+        height: 60px;
+        background: #151515;
     }
-    .fa-play-circle {
-        font-size: 40px;
+    .jonli_title {
+        padding-top: 6px;
+        text-align: center;
+        align-items: center;
         color: white;
-        margin-left: 11px;
-    }
-    .fa-film {
-        font-size: 38px;
-        color: rgb(0, 0, 0);
-        transition: 0.5s;
-        margin-right: 10px;
-    }
-    .fa-arrow-alt-circle-down {
-        font-size: 38px;
-        color: rgb(0, 0, 0);
-        transition: 0.5s;
-    }
-    .text_movie {
-        color: white;
-        margin-left: 20px;
-        font-size: 37px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-transform: uppercase;
+        font-weight: 700;
     }
-    .title {
-        color: white;
-        font-size: 15px;
-        margin-left: 35px;
-    }
-    .title_1 {
-        color: white;
-        font-size: 15px;
-        margin-left: 20px;
-    }
-    .movie_coment {
-        color: white;
-        font-size: 18px;
-        margin-left: 20px;
-    }
-    .movie_title {
-        font-size: 32px;
-        color: white;
-        font-weight: 600;
-        margin-left: 20px;
-    }
-}
-
-@media(max-width: 593px){
-    .header_start-img {
-        padding-left: 43px;
-        margin-top: 91px;
-        max-width: 323px;
-        height: 80px;
-    }
-    
-    .header_start-title {
-        padding-left: 47px;
-        margin-top: 26px;
-        color: white;
-        font-size: 19px;
-    }
-    
-    .header_center-title {
-        align-items: center;
-        font-size: 19px;
-        color: white;
-        padding-top: 28px;
-    }
-    
-    .header_text-p {
-        align-items: center;
-        font-size: 20px;
-        color: white;
-        padding-top: 15px;
-    }
-    
-    .header_center-vidio {
+    .d-block {
         width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    .vidio_h2-text {
-        padding-top: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-        font-size: 40px;
-    }
-    
-    .vidio_p-title {
-        padding-top: 14px;
-        font-size: 1.5em;
-        color: white;
-        padding-left: 120px;
-        padding-right: 30px;
-    }
-    
-    .text_h3 {
-        color: white;
-        padding-top: 14px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    .title_p {
-        font-size: 30px;
-        color: white;
-        padding: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    .title_link {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 21px;
-        color: #ff0000;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 0.5s;
-        text-decoration: none;
+        height: 439px;
+        clip-path: polygon(0 0, 100%, 100%, 95%, 100%) !important;
+        -webkit-clip-path: polygon(0 0,0 100%,100% 97%,100% 0);
     }
 }
-
-
-
-@media(max-width: 350px){
-    .header_start-img {
-        padding-left: 10px;
-        margin-top: 16px;
-        max-width: 253px;
-        height: 56px;
-    }
-    .header_start-title {
-        padding-left: 10px;
-        margin-top: 15px;
-        color: white;
-        font-size: 15px;
-    }
-    .header_center-title {
-        align-items: center;
-        font-size: 16px;
-        color: white;
-        padding-top: 0px;
-    }
-    .header_text-p {
-        align-items: center;
-        font-size: 17px;
-        color: white;
-        padding-top: 3px;
-    }
-    .vidio_h2-text {
-        padding-top: 10px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-        font-size: 35px;
-    }
-    .vidio_p-title {
-        padding-top: 14px;
-        font-size: 16px;
-        color: white;
-        padding-left: 45px;
-        padding-right: 45px;
-    }
-    .text_h3 {
-        color: white;
-        padding-top: 0px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 27px;
-    }
-    .title_p {
-        font-size: 15px;
-        color: white;
-        padding: 19px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .title_link {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 22px;
-        color: #ff0000;
-        font-weight: bold;
-        text-transform: uppercase;
-        transition: 0.5s;
-        text-decoration: none;
-    }
-    .footer_title {
-        color: white;
-        font-size: 14px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-    }
-    .header_center-vidio-text {
-        padding-top: 1px;
-    }
-}
-
-
 
