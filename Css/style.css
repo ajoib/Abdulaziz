@@ -1,17 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
 }
+
 /******** MURAKAB KODLAR *********/
 
-.nav_menu-1{
+.header_start-navs {
+    background: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.nav_menu-1 {
     width: 100%;
     height: 55px;
     background: #202020;
 }
-.nav_menu-1-img{
+
+.nav_menu-1-img {
     height: 50px;
 }
 
@@ -20,7 +27,7 @@
     justify-content: center !important;
 }
 
-.nav-link{
+.nav-link {
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
@@ -28,18 +35,18 @@
     transition: 0.5s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: red !important;
     text-align: center !important;
 }
 
-.jonli_efir-joi{
+.jonli_efir-joi {
     width: 100%;
     height: 40px;
     background: #151515;
 }
 
-.jonli_title{
+.jonli_title {
     padding-top: 7px;
     text-align: center;
     align-items: center;
@@ -48,24 +55,25 @@
     font-weight: 700;
 }
 
-.jonli_text{
+.jonli_text {
     font-weight: 700;
     color: rgb(255, 0, 0);
     text-transform: uppercase;
 }
 
-.carusel_navs{
+.carusel_navs {
     width: 100%;
 }
 
 .d-block {
     width: 100%;
     height: 600px;
-    clip-path : polygon(0 0, 100%, 100%, 95%, 100%) !important;
-    -webkit-clip-path: polygon(0 0,0 100%,100% 97%,100% 0);
-    
+    clip-path: polygon(0 0, 100%, 100%, 95%, 100%) !important;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 97%, 100% 0);
+
 }
-.navbar-2{
+
+.navbar-2 {
     display: none;
 }
 
@@ -74,63 +82,209 @@
     margin-right: 488px;
     margin-bottom: 185px;
 }
-.h5{
+
+.h5 {
     font-size: 40px !important;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
 }
-.h5_title{
+
+.h5_title {
     font-size: 12px !important;
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .wanda_VISION {
     width: 233px;
     height: 253px;
 }
-.husd{
+
+.husd {
     margin-right: 20px;
 }
 
-.wanda_link{
+.wanda_link {
     color: white;
     font-size: 14px;
     font-weight: 700;
     background: red;
-    padding: 10px 26px 10px 26px ;
+    padding: 10px 26px 10px 26px;
     border-radius: 12px;
     text-transform: uppercase;
     transition: 0.5s;
 }
-.wanda_link:hover{
-   text-decoration: none;
-   color: white;
-   background: rgb(116, 29, 29);
+
+.wanda_link:hover {
+    text-decoration: none;
+    color: white;
+    background: rgb(116, 29, 29);
 }
-.asenble{
+
+.asenble {
     padding-top: 10px !important;
 }
-.h56{
+
+.h56 {
     font-size: 40px !important;
     color: blue;
     text-transform: uppercase;
     font-weight: 700;
 }
-.h5_title-{
+
+.h5_title- {
     font-size: 12px !important;
     font-weight: 700;
     text-transform: uppercase;
     color: blue;
 }
 
+/************************************************************************************/
+
+.podcasts{
+    width: 100%;
+}
+
+.all_poster {
+    position: relative;
+    width: 100%;
+
+    background: black;
+    display: flex;
+}
+
+.poster_img {
+    width: 526px;
+    height: 240px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.poster_text {
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 48px;
+    padding-bottom: 27px;
+}
+
+.poster_1 {
+    width: 50%;
+
+}
+
+.poster_2 {
+    width: 50%;
+    height: 500px;
+    background: url(../Img/wanda\ vision\ big\ poster.jpg)no-repeat center center / cover;
+}
+
+.tutu {
+    display: none;
+}
+
+.poster_link {
+    padding-top: 8px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 12px 10px 12px;
+    border-radius: 11px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.poster_link:hover {
+    color: red !important;
+    text-decoration: none !important;
+}
+
+.poster-li-1 {
+    margin-right: 10px;
+}
+
+
+.img_podcats{
+    width: 100%;
+}
+/*********************************************************************************/
+.movies_posters-gos {
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.pr_me-img {
+    width: 100%;
+    height: 221px;
+    margin-top: 20px;
+}
+
+.pr_me-title {
+    text-align: center;
+    padding: 9px 9px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.all_dezo-brand {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+
+.new_title {
+    margin-top: 48px;
+    color: #e9e9e9;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 48px;
+}
+
+
+/**************************************************************************************/
+
+
+.footer{
+    padding-top: 48px;
+    width: 100%;
+    background:#151515;
+}
+.gym{
+    padding-bottom: 48px;
+}
+.footer_img{
+    color: white;
+    font-size: 58px;
+    font-weight: bold;
+}
+.footer_title-found{
+    padding-left: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
 /************************************media start**************************************/
 
+
+
+/*********media 350px ********/
 @media(max-width: 350px) {
     .nav_menu-1-img {
         height: 37px;
         padding-top: 7px;
     }
+
     .navbar-toggler {
         padding: 0.1rem 0.7rem;
         font-size: 1.00rem;
@@ -139,11 +293,13 @@
         border: 1px solid transparent;
         border-radius: 0.25rem;
     }
+
     .jonli_efir-joi {
         width: 100%;
         height: 60px;
         background: #151515;
     }
+
     .jonli_title {
         padding-top: 6px;
         text-align: center;
@@ -152,11 +308,77 @@
         text-transform: uppercase;
         font-weight: 700;
     }
+
     .d-block {
         width: 100%;
         height: 439px;
         clip-path: polygon(0 0, 100%, 100%, 95%, 100%) !important;
-        -webkit-clip-path: polygon(0 0,0 100%,100% 97%,100% 0);
+        -webkit-clip-path: polygon(0 0, 0 100%, 100% 97%, 100% 0);
     }
+    
+    /***********media partiya 2**************************/
+    
+    .poster_text {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 42px;
+        margin-left: 28px;
+        padding-bottom: 19px;
+    }
+    .poster_2 {
+        width: 50%;
+        height: 178px;
+        background: url(../Img/wanda\ vision\ big\ poster.jpg)no-repeat center center / cover;
+    }
+    .poster_link {
+        padding-top: 16px;
+        color: white;
+        margin-left: 5px;
+        border: 1px solid white;
+        padding: 2px 4px 2px 4px;
+        border-radius: 7px;
+        font-size: 9px;
+        text-transform: uppercase;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    .poster-li-1 {
+        margin-right: 5px;
+    }
+    .pr_me-img {
+        width: 100%;
+        height: 142px;
+        margin-top: 20px;
+    }
+    .all_dezo-brand {
+        margin-top: 9px;
+        font-size: 8px;
+        color: #999;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 4px;
+    }
+    .pr_me-title {
+        text-align: center;
+        padding: 0px 0px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .new_title {
+        margin-top: 48px;
+        color: #e9e9e9;
+        font-size: 15px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+    .poster_img {
+        width: 526px;
+        height: 240px;
+        margin-left: 100px;
+        margin-bottom: 0px;
+        display: none;
+    }
+    
 }
-
