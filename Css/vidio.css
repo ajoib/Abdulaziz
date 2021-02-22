@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    background: #151515;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.wandaVision_header {
+    width: 100%;
+    height: 500px;
+    background: url(../Img/vidios\ wandaVision.png) no-repeat center center / cover;
+}
+
+.ul{
+    list-style: none;
+}
+
+.li{
+    padding-top: 450px;
+}
+
+.WandaVision_link {
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px white solid;
+    padding: 4px 6px 4px 6px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.WandaVision_link:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.vidio_trailer{
+    width: 100%;
+}
+.trailer_start{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wanda_trailer{
+    width: 100%;
+    clip-path: polygon(0 0, 100%, 100%, 95%, 100%) !important;
+    -webkit-clip-path: polygon(0 0, 0 94%, 100% 100%, 96% 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************************/
+
+
+/*******************************MEDIA START***************************************/
+
+@media(max-width: 500px) {
+    .menu_dark {
+        background-color: #202020 !important;
+        justify-content: center;
+    }
+    .nav-link {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .wandaVision_header {
+        width: 100%;
+        height: 196px;
+        background: url(../Img/vidios\ wandaVision.png) no-repeat center center / cover;
+    }
+    .li {
+        padding-top: 153px;
+    }
+    .WandaVision_link {
+        font-size: 15px;
+        color: white;
+        margin-left: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px white solid;
+        padding: 4px 6px 4px 6px;
+        border-radius: 6px;
+        transition: 0.5s;
+    }
+    .trailer_start {
+        font-size: 24px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        align-items: center;
+        padding-top: 14px;
+    }
+    .wanda_trailer {
+        width: 100%;
+        clip-path: polygon(0 0, 100%, 100%, 95%, 100%) !important;
+        -webkit-clip-path: polygon(0 0, 0 94%, 100% 100%, 96% 0);
+    }
+}
