@@ -210,7 +210,10 @@
     margin-right: 10px;
 }
 
-
+.bigrtain{
+    width: 100%;
+    flex-wrap: wrap;
+}
 .img_podcats{
     width: 100%;
 }
@@ -231,6 +234,7 @@
     padding: 9px 9px;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-size: 18px;
 }
 
 .all_dezo-brand {
@@ -287,9 +291,73 @@ p {
 }
 /************************************media start**************************************/
 
+/*********************MEDIA 500PX*********************/
+
+@media(max-width:500px) {
+    .poster_text {
+        color: white;
+        font-size: 19px;
+        font-weight: 400;
+        padding-top: 53px;
+        margin-left: 23px;
+        padding-bottom: 24px;
+    }
+    .poster_link {
+        padding-top: 8px;
+        color: white;
+        border: 1px solid white;
+        padding: 8px 9px 8px 9px;
+        border-radius: 10px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 200;
+        transition: 0.5s;
+    }
+    .poster_2 {
+        width: 50%;
+        height: 280px;
+        background: url(../Img/wanda\ vision\ big\ poster.jpg)no-repeat center center / cover;
+    }
+    .movies_posters-gos {
+        width: 100%;
+        background: rgb(0, 0, 0);
+        padding: 0px 0px 0px 38px;
+    }
+    .pr_me-img {
+        width: 100%;
+        height: 153px;
+        margin-top: 20px;
+    }
+    .all_dezo-brand {
+        margin-top: 3px;
+        font-size: 7px;
+        color: #999;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 7px;
+    }
+    .pr_me-title {
+        text-align: center;
+        padding: 5px 9px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .new_title {
+        margin-top: -13px;
+        color: #e9e9e9;
+        font-size: 22px;
+        margin-left: 23px;
+        font-weight: bold;
+        padding-bottom: 2px;
+    }
+}
 
 
 /*********media 350px ********/
+
+
+
 @media(max-width: 350px) {
     .nav_menu-1-img {
         height: 37px;
