@@ -140,6 +140,10 @@
     color: blue;
 }
 
+.humans{
+    padding-left: 10px;
+    
+}
 /************************************************************************************/
 
 .podcasts{
@@ -159,6 +163,7 @@
     height: 240px;
     margin-left: 100px;
     margin-bottom: 0px;
+    display: none;
 }
 
 .poster_text {
@@ -253,26 +258,32 @@ p {
 
 /**************************************************************************************/
 
-
 .footer{
-    padding-top: 48px;
     width: 100%;
-    background:#151515;
+    background: #151515;
 }
-.gym{
-    padding-bottom: 48px;
+
+.footer-po{
+    padding-top: 48px;
+    display: flex;
 }
-.footer_img{
-    color: white;
-    font-size: 58px;
+
+.footer_link{
     font-weight: bold;
-}
-.footer_title-found{
-    padding-left: 48px;
-    font-weight: bold;
-    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    font-size: 18px;
     text-transform: uppercase;
+}
+.footer_link-2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(161, 161, 161);
+}
+.pogon_1{
+    width: 100%;
 }
 /************************************media start**************************************/
 
@@ -320,11 +331,11 @@ p {
     
     .poster_text {
         color: white;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
-        padding-top: 42px;
-        margin-left: 28px;
-        padding-bottom: 19px;
+        padding-top: 49px;
+        margin-left: 25px;
+        padding-bottom: 10px;
     }
     .poster_2 {
         width: 50%;
@@ -379,6 +390,28 @@ p {
         margin-left: 100px;
         margin-bottom: 0px;
         display: none;
+    }
+    
+    .all_poster {
+        position: relative;
+        width: 100%;
+        background: black;
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .poster_link {
+        padding-top: 0px;
+        color: white;
+        margin-left: 5px;
+        border: 1px solid white;
+        padding: 1px 3px 1px 3px;
+        border-radius: 5px;
+        font-size: 7px;
+        text-transform: uppercase;
+        font-weight: 700;
+        transition: 0.5s;
     }
     
 }
