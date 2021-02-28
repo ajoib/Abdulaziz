@@ -1,0 +1,72 @@
+.header {
+    width: 100%;
+    background: white;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.5s;
+}
+.center_banner {
+    width: 100%;
+    height: 700px;
+    background: url(../Img/tv_shous-banner.png) no-repeat center center / cover;
+}
+.center_banner-text {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.center_banner-title {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.tv_box-img {
+    padding-top: 48px;
+    width: 100%;
+}
+.central_text {
+    font-size: 24px;
+    color: #202020;
+    font-weight: bold;
+    padding-top: 48px;
+}
+.tv_hubs {
+    width: 100%;
+    padding-top: 48px;
+}
+.tv_hubs-img {
+    width: 100%;
+    height: 100%;
+    padding-top: 85px;
+}
+.tv_hubs-text {
+    color: #202020;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+/*******************************************SECTION***************************************************/
+.section {
+    width: 100%;
+    padding-top: 150px;
+}
+.section_title_text {
+    font-size: 24px;
+    color: #202020;
+    font-weight: bold;
+    padding-top: 48px;
+}
+.section_center-img{
+    width: 100%;
+    padding-top: 48px;
+}
+.juju{
+    padding-bottom: 48px;
+}
